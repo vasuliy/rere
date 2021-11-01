@@ -1,0 +1,178 @@
+@import url(fonts.css);
+@import url(reset.css);
+html {
+    font-family: 'Roboto slab', sans-serif;
+}
+
+.container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    height: 60px;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px 0 #3a3a3a;
+    z-index: 999;
+}
+
+.header-logo {
+    width: 20%;
+}
+
+.logo-link {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+
+.header-menu {
+    width: 50%;
+}
+
+.menu-link {
+    font-size: 21px;
+    font-weight: 500;
+    color: #3a3a3a;
+    transition: all 0.7s;
+    text-transform: uppercase;
+}
+
+.menu-link:hover {
+    color: tomato;
+}
+
+.section {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+#home {
+    background-image: url(../images/laptop-wallpaper-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 50px;
+    font-weight: 700;
+    height: 100%;
+}
+
+#about {
+    background-color: #f5f5f5
+}
+
+.about-photo {
+    width: 30%;
+    height: 70vh;
+    background-image: url(../images/img-profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-box {
+    margin-bottom: 20px;
+}
+
+.about-info {
+    width: 60%;
+}
+
+.about-info h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.about-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #575656;
+    line-height: 20px;
+}
+
+#contact {
+    background-color: #f5f4f4
+}
+
+.contact-info {
+    width: 30%;
+}
+
+.contact-info h3 {
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact-map {
+    width: 60%;
+    height: 70vh;
+    border: 5px solid gray;
+}
+
+.footer {
+    background-color: #b3b2b2;
+    height: 60px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 60px
+}
+.works-info {
+    width: 100%;
+    height: 95%;
+    
+    line-height: 20px;
+    
+}
+.works-info h3 {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 37px;
+    font-style:Impact;
+
+}
+
+.works-box  p {
+    font-size: 28px;
+    font-weight: 400;
+   font-style: italic;
+    line-height: 30px;
+
+}
+.works-box {
+    margin-bottom: 20px;
+}
+
+#works {
+    background-color: #f5f5f5
+}
